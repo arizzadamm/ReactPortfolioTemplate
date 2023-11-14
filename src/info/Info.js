@@ -81,8 +81,8 @@ export const info = {
     bio: "Hello! I'm Ariza. I'm a .Net Developer. I studied Computer Engineering at Telkom University, My Degree is S.T and i love gaming and coding. You should hire me!",
     skills: 
         {
-            proficientWith: ['javascript', '.net', 'C#', 'github', 'bootstrap', 'html5', 'css3', 'SQL Server'],
-            exposedTo: ['nodejs', 'python', 'react']
+            proficientWith: ['SQL Server','javascript', '.NET', 'C#', 'bootstrap', 'html5', 'css3'],
+            exposedTo: ['nodejs', 'python', 'react','Azure']
         }
     ,
     hobbies: [
@@ -108,31 +108,31 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "SPR REPORT Total Bangun Persada",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/arizzadamm/TotalSprReport", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Otto Digital",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/arizzadamm/Ottodigital",
             image: mock2
         },
         {
             title: "Retail Mini App",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/arizzadamm",
             image: mock3
         },
         {
             title: "ESS-HR",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/arizzadamm",
             image: mock4
         },
         {
             title: "ESS-IT",
-            live: "https://paytonpierce.dev",
+            live: "",
             source: "https://github.com/arizzadamm",
             image: mock5
         }
