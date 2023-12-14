@@ -125,15 +125,15 @@ export const info = {
             image: mock3
         },
         {
-            title: "ESS-HR",
-            live: "",
-            source: "https://github.com/arizzadamm",
+            title: "ESS-HR (Operations) ",
+            // live: "",
+            // source: "https://github.com/arizzadamm",
             image: mock4
         },
         {
-            title: "ESS-IT",
-            live: "",
-            source: "https://github.com/arizzadamm",
+            title: "ESS-IT(Operations) ",
+            // live: "",
+            // source: "https://github.com/arizzadamm",
             image: mock5
         }
     ]
