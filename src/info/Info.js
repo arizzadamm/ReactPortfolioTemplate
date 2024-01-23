@@ -123,18 +123,21 @@ export const info = {
             live: "",
             source: "https://github.com/arizzadamm",
             image: mock3
-        },
+        }
+    ],
+    operation: [
         {
-            title: "ESS-HR (Operations) ",
-            // live: "",
-            // source: "https://github.com/arizzadamm",
-            image: mock4
-        },
+            title: "ESS-HR",
+            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/arizzadamm/TotalSprReport", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
+        },    
         {
             title: "ESS-IT(Operations) ",
             // live: "",
             // source: "https://github.com/arizzadamm",
             image: mock5
         }
+
     ]
 }
