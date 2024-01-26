@@ -6,8 +6,8 @@ import {info} from "../../info/Info";
 
 
 export default function operations() {
-  const [isModalOpen, setModalOpen] = useState(false);
-  const [selectedJobDesc, setSelectedJobDesc] = useState('');
+  // const [isModalOpen, setModalOpen] = useState(false);
+  // const [selectedJobDesc, setSelectedJobDesc] = useState('');
 
   const handleJobDescClick = (JobDesc) => {
     setSelectedJobDesc(JobDesc);
