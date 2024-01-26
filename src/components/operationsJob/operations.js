@@ -9,11 +9,6 @@ export default function operations() {
   // const [isModalOpen, setModalOpen] = useState(false);
   // const [selectedJobDesc, setSelectedJobDesc] = useState('');
 
-  const handleJobDescClick = (JobDesc) => {
-    setSelectedJobDesc(JobDesc);
-    setModalOpen(true);
-  };
-
     return (
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
@@ -23,16 +18,16 @@ export default function operations() {
                        image={project.image} 
                        JobDesc={project.info} 
                        title={project.title}
-                       onJobDescClick={handleJobDescClick} />
+                       />
                    </Grid>
                    
                 ))}
             </Grid>
-          {/* Modal Component */}
+          {/* Modal Component
           <JobDesc trigger={isModalOpen}>
             <h2>Job Description</h2>
             <p>{selectedJobDesc}</p>
-          </JobDesc>
+          </JobDesc> */}
         </Box>
     );
 };
