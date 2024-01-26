@@ -82,7 +82,7 @@ export const info = {
     skills: 
         {
             proficientWith: ['SQL Server','javascript', '.NET', 'C#', 'bootstrap', 'html5', 'css3'],
-            exposedTo: ['nodejs', 'python', 'react','Azure']
+            exposedTo: ['nodejs', 'python', 'react','Azure','Analytical Skills','System Analyst']
         }
     ,
     hobbies: [
@@ -128,14 +128,12 @@ export const info = {
     operation: [
         {
             title: "ESS-HR",
-            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/arizzadamm/TotalSprReport", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            info: "jobDesc", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            image: mock4
         },    
         {
             title: "ESS-IT(Operations) ",
-            // live: "",
-            // source: "https://github.com/arizzadamm",
+            info: "Info Job Desc",
             image: mock5
         }
 
