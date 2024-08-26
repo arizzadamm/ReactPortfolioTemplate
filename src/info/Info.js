@@ -108,14 +108,14 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "SPR REPORT Total Bangun Persada",
-            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/arizzadamm/TotalSprReport", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "Project I had for Recruitment Test Total Bangun Persada",
+            source: "Feature : Create with ASP.Net 7 and Bootstrap 5 and Simple CRUD and logic. with this app i wass passed the test from the user 9/10 ", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Otto Digital",
-            live: "",
-            source: "https://github.com/arizzadamm/Ottodigital",
+            live: "Project I had for Recruitment Test Otto Digital",
+            source: "Feature : Create with ASP.Net 6 and Bootstrap 5 and Simple CRUD and logic with JWT Authentication And Role",
             image: mock2
         },
         {
@@ -128,12 +128,14 @@ export const info = {
     operation: [
         {
             title: "ESS-HR",
-            info: "jobDesc", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            info: "jobDesc",
+            JobDesc:"As Operation team at Isuzu Astra Motor Indonesia, I maintained the Application ESS-HR is stands for Employee Self Service-Human Resource, this can maintain employee leave,medical,CICO,Overtime,and Etc", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             image: mock4
         },    
         {
             title: "ESS-IT(Operations) ",
             info: "Info Job Desc",
+            JobDesc:"As Operation team at Isuzu Astra Motor Indonesia, I maintained the Application ESS-IT is stands for Employee Self Service-Information Tech, this can maintain employee to create form related to IT field",
             image: mock5
         }
 

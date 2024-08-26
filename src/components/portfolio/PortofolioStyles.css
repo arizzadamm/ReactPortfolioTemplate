@@ -1,0 +1,18 @@
+.dialog-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 100.5rem;
+    font-weight: bold;
+    margin: 0;
+ }
+ 
+ .dialog-content {
+    font-family: 'Times New Roman', serif;
+    font-size: 8rem;
+    padding: 1rem 0;
+ }
+ 
+ .dialog-actions {
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+    padding: 0.5rem 0;
+ }

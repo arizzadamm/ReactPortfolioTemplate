@@ -16,8 +16,9 @@ export default function operations() {
                    <Grid item xs={12} md={6} key={index}>
                        <OperationsBlock 
                        image={project.image} 
-                       JobDesc={project.info} 
+                       Info={project.info} 
                        title={project.title}
+                       JobDesc={project.JobDesc}
                        />
                    </Grid>
                    
