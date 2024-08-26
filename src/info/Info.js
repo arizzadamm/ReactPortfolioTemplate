@@ -78,7 +78,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Ariza. I'm a .Net Developer. I studied Computer Engineering at Telkom University, My Degree is S.T and i love gaming and coding. You should hire me!",
+    bio: "Hello! I'm Ariza. I'm a .Net Developer. I studied Computer Engineering at Telkom University, My Degree is S.T and i love gaming and coding. Thanks for visiting my Website",
     skills: 
         {
             proficientWith: ['SQL Server','javascript', '.NET', 'C#', 'bootstrap', 'html5', 'css3'],
