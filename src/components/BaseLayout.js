@@ -5,6 +5,8 @@ import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import Operations from "./operationsJob/operations";
+import CyberNewsFeed from "./CyberNewsFeed";
+import MiniToolsList from "./MiniToolsList";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
 
@@ -41,6 +43,8 @@ export default function BaseLayout() {
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
                   <Route exact path={'/operations'} element={<Operations/>}/>
+                  <Route exact path={'/cybernews'} element={<CyberNewsFeed/>}/>
+                  <Route exact path={'/minitools'} element={<MiniToolsList/>}/>
                </Routes>
             </Grid>
             <Grid item>

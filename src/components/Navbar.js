@@ -16,21 +16,32 @@ const links = [
         to: '/about',
         active: 'about'
     },
+     {
+        name: 'Portfolio',
+        to: '/portfolio',
+        active: 'portfolio'
+    },
     {
         name: info.initials,
         type: 'initials',
         to: '/',
         active: 'home'
     },
-    {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
-    },
+
     {
         name: 'Cyber Security',
         to: '/operations',
         active: 'operationsjob'
+    },
+    {
+        name: 'Cyber News',
+        to: '/cybernews',
+        active: 'cybernews'
+    },
+    {
+        name: 'Mini Tools',
+        to: '/minitools',
+        active: 'minitools'
     }
 ]
 
@@ -47,8 +58,8 @@ export default function Navbar({darkMode, handleClick}) {
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                          sx={{borderImageSource: info.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
-                            {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                        {!link.type && <p style={{ padding: '0.5rem 0', margin: 0 }}>{link.name}</p>}
+                        {link.type && <h1 style={{ margin: 0 }}>{link.name}</h1>}
                         </Link>
                     </Box>
                 ))}
