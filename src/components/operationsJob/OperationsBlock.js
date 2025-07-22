@@ -57,7 +57,7 @@ function OperationsBlock(props) {
          >
             <CustomDialogTitle id="dialog-title">{title || 'Project Title'}</CustomDialogTitle>
             <CustomDialogContent>
-               <p id="dialog-description">{JobDesc || 'Operation Desc'}</p>
+               <p id="dialog-description">{JobDesc || 'Desc'}</p>
             </CustomDialogContent>
             <CustomDialogActions>
                <Button onClick={handleClose} color="primary">Close</Button>

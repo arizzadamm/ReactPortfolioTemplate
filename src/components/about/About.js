@@ -18,6 +18,23 @@ export default function About() {
         </>;
     }
 
+    function experiencesText() {
+        return <>
+            <p><span style={{color: '#0b5993'}}> using </span> <span style={{color: '#008a00'}}> {firstName}{info.lastName.toLowerCase()}</span> 
+            <span style={{color: '#ffc66a'}}> Experiences</span> </p>
+            <p style={{color: '#0b5993'}}>Experiences </p>
+            <ul className={Style.experiences}>
+                {info.experiences.map((experience, index) => (
+                    <li key={index}>
+                        <h3>{experience.title}</h3>
+                        <p>{experience.info}</p>
+                        <p>{experience.JobDesc}</p>
+                    </li>
+                ))}
+            </ul>
+        </>;
+    }
+
     function skillsText() {
         return <>
             <p><span style={{color: '#0b5993' }}>using {firstName}{info.lastName.toLowerCase()}</span> Public class
@@ -48,9 +65,10 @@ export default function About() {
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
-            <Terminal text={aboutMeText()}/>
-            <Terminal text={skillsText()}/>
-            <Terminal text={miscText()}/>
+            <div className={Style['fade-in']} style={{animationDelay: '0.1s'}}><Terminal text={aboutMeText()}/></div>
+            <div className={Style['fade-in']} style={{animationDelay: '0.3s'}}><Terminal text={experiencesText()}/></div>
+            <div className={Style['fade-in']} style={{animationDelay: '0.5s'}}><Terminal text={skillsText()}/></div>
+            <div className={Style['fade-in']} style={{animationDelay: '0.7s'}}><Terminal text={miscText()}/></div>
         </Box>
     )
 }

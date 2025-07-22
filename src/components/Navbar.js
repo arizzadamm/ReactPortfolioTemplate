@@ -28,7 +28,7 @@ const links = [
         active: 'portfolio'
     },
     {
-        name: 'Operations Job',
+        name: 'Cyber Security',
         to: '/operations',
         active: 'operationsjob'
     }

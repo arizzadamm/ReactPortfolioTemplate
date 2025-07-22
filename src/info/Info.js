@@ -4,11 +4,11 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
-
+import mock67 from "../img/mock67.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(120, 18, 71)", "rgb(166,104,255)"];
+export let colors = ["rgb(22, 96, 162), rgb(73, 3, 99)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -26,7 +26,7 @@ export const info = {
     firstName: "Ariza",
     lastName: "Damara Al-khaf",
     initials: "ARZ", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a .NET Developer & Operations Team",
+    position: "a .NET Developer & Cyber Security Analyst",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -74,18 +74,32 @@ export const info = {
             icon: "fa fa-twitter",
             label: 'twitter'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
     ],
     bio: "Hello! I'm Ariza. I'm a .Net Developer. I studied Computer Engineering at Telkom University, My Degree is S.T and i love gaming and coding. Thanks for visiting my Website",
     skills: 
         {
             proficientWith: ['SQL Server','javascript', '.NET', 'C#', 'bootstrap', 'html5', 'css3'],
-            exposedTo: ['nodejs', 'python', 'react','Azure','Analytical Skills','System Analyst']
+            exposedTo: ['nodejs', 'python', 'react','Azure','Analytical Skills','System Analyst','Cyber Security','Network']
         }
     ,
-    hobbies: [
+    experiences: [
+        {
+            title: "BAPPENAS",
+            info: "2025-Present",
+            JobDesc:"Cyber Security Analyst at BAPPENAS", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        },   
+        {
+            title: "AGIT",
+            info: "2021-2025",
+            JobDesc:" maintaining and supporting the Application Operation Human Resource, Warehouse Management Service, and Procurement Management Service for PT Isuzu Astra Motor Indonesia", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it
+        },    
+        {
+            title: "PT Maximize IT",
+            info: "2020-2021",
+            JobDesc:"contributed to the development of a web procurement application for PT Salim Ivomas Pratama Tbk using .NET Core", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it
+        } 
+        
+    ],hobbies: [
         {
             label: 'Gaming',
             emoji: '🎮'
@@ -119,14 +133,6 @@ export const info = {
             image: mock2
         },
         {
-            title: "Retail Mini App",
-            live: "",
-            source: "https://github.com/arizzadamm",
-            image: mock3
-        }
-    ],
-    operation: [
-        {
             title: "ESS-HR",
             info: "jobDesc",
             JobDesc:"As Operation team at Isuzu Astra Motor Indonesia, I maintained the Application ESS-HR is stands for Employee Self Service-Human Resource, this can maintain employee leave,medical,CICO,Overtime,and Etc", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
@@ -137,6 +143,21 @@ export const info = {
             info: "Info Job Desc",
             JobDesc:"As Operation team at Isuzu Astra Motor Indonesia, I maintained the Application ESS-IT is stands for Employee Self Service-Information Tech, this can maintain employee to create form related to IT field",
             image: mock5
+        },
+        {
+            title: "Retail Mini App",
+            live: "",
+            source: "https://github.com/arizzadamm",
+            image: mock3
+        }
+    ],
+    operation: [
+
+        {
+            title: "Cyber Sec @ BAPPENAS",
+            live: "",
+            source: "https://github.com/arizzadamm",
+            image: mock67
         }
 
     ]

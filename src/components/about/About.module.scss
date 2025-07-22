@@ -19,3 +19,24 @@
     line-height: 1.75;
   }
 }
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+  /* Tambahkan ukuran seragam */
+  width: 100%;
+  min-width: 320px;   // atau sesuai kebutuhan
+  max-width: 1200px;   // atau sesuai kebutuhan
+  min-height: 180px;  // atau sesuai kebutuhan
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
